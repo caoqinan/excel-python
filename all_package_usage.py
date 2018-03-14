@@ -28,7 +28,6 @@ sh.cell(0,0).value,type(sh.cell(0,0).value)
 workbook = xlwt.Workbook(encoding = 'utf-8')
 worksheet = workbook.add_sheet('My Worksheet')
 # worksheet = workbook.get_sheet(Sheet_name)
-
 # worksheet.write(0, 0, 2) # 不带样式的写入
 # worksheet.write(0, 1, 3, style) # 带样式的写入
 # worksheet.col(0).width = 4333 # 设置单元格宽度

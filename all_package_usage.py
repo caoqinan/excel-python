@@ -74,5 +74,5 @@ print xSheet.Cells(row, col).Value #取值
 xSheet.Cells(row, col).Value  = '2' #赋值
 xlBook.SaveAs(newfilename) #另存为
 xlBook.Save() #覆盖保存
-xlBook.close()
+xlBook.close()#关闭
 
